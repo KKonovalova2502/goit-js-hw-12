@@ -90,8 +90,9 @@ async function onLoadMoreClick() {
         message: "We're sorry, but you've reached the end of search results.",
         position: 'topRight',
       });
+    } else {
+      refs.addImagesBtn.classList.remove('visually-hidden');
     }
-    refs.addImagesBtn.classList.remove('visually-hidden');
   } catch (error) {
     console.error('Error:', error);
   } finally {
