@@ -48,6 +48,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  gap: 10px;
 
   border-radius: 8px;
   padding: 8px 16px;
